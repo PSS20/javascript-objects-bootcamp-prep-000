@@ -5,8 +5,3 @@ function updatePlaylist(obj,name,title){
   console.log(obj)
   return obj
 }
-
-function removeFromPlaylist(obj,name){
-  delete obj.name
-  return obj
-}
